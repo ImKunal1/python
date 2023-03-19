@@ -1,0 +1,87 @@
+.profile-icon {
+  width: 60px;
+  height: 60px;
+}
+.pause-button-icon,
+.profile-icon,
+.rewind-left-icon {
+  position: relative;
+  flex-shrink: 0;
+}
+.rewind-left-icon {
+  width: 45.5px;
+  height: 25.78px;
+}
+.pause-button-icon {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.top-icons {
+  position: absolute;
+  top: 40px;
+  left: 444px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-12xl);
+}
+.lorem-ipsum-dolor {
+  margin: 0;
+}
+.lorem-ipsum-dolor-container {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  width: 721px;
+  flex-shrink: 0;
+}
+.blank-space {
+  position: absolute;
+  top: 123px;
+  left: 249px;
+  background-color: var(--color-gainsboro-100);
+  box-shadow: -8px 8px 7px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-12xl) var(--padding-8xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logo-tts-project-removebg-prev-icon1 {
+  position: relative;
+  width: 78px;
+  height: 78px;
+  flex-shrink: 0;
+  object-fit: cover;
+  cursor: pointer;
+}
+.project-name1 {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  display: none;
+}
+.logo-nav-bar1 {
+  position: absolute;
+  top: 16px;
+  left: 100px;
+  width: 225px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.macbook-air-2 {
+  position: relative;
+  background-color: var(--primary3);
+  width: 100%;
+  height: 832px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
