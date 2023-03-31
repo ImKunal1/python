@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./input-text.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="input-text">
+      <div class="top-icons">
+        <img class="profile-icon" alt="" src="./public/profile-icon.svg" /><img
+          class="rewind-left-icon"
+          alt=""
+          src="./public/rewind-left-icon.svg"
+        /><img
+          class="pause-button-icon"
+          alt=""
+          src="./public/pause-button.svg"
+          id="pauseButtonIcon"
+        /><img
+          class="rewind-left-icon"
+          alt=""
+          src="./public/rewind-right-icon.svg"
+        />
+      </div>
+      <div class="blank-space">
+        <div class="lorem-ipsum-dolor-container">
+          <p class="lorem-ipsum-dolor">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            nec odio ante. Etiam nisi
+          </p>
+          <p class="lorem-ipsum-dolor">
+            justo, efficitur tempor dictum non, pulvinar ut enim. Donec vitae
+            lacinia est, et pellentesque
+          </p>
+          <p class="lorem-ipsum-dolor">
+            diam. Orci varius natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus.
+          </p>
+          <p class="lorem-ipsum-dolor">
+            Ut tempus augue sit amet odio scelerisque blandit sed sed tortor.
+            Quisque commodo cursus
+          </p>
+          <p class="lorem-ipsum-dolor">
+            consectetur. Quisque sit amet congue velit, ut vehicula mauris.
+          </p>
+          <p class="lorem-ipsum-dolor">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            nec odio ante. Etiam nisi
+          </p>
+          <p class="lorem-ipsum-dolor">
+            justo, efficitur tempor dictum non, pulvinar ut enim. Donec vitae
+            lacinia est, et pellentesque
+          </p>
+          <p class="lorem-ipsum-dolor">
+            diam. Orci varius natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus.
+          </p>
+          <p class="lorem-ipsum-dolor">
+            Ut tempus augue sit amet odio scelerisque blandit sed sed tortor.
+            Quisque commodo cursus
+          </p>
+          <p class="lorem-ipsum-dolor">
+            consectetur. Quisque sit amet congue velit, ut vehicula mauris.
+          </p>
+          <p class="lorem-ipsum-dolor">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+            nec odio ante. Etiam nisi
+          </p>
+          <p class="lorem-ipsum-dolor">
+            justo, efficitur tempor dictum non, pulvinar ut enim. Donec vitae
+            lacinia est, et pellentesque
+          </p>
+          <p class="lorem-ipsum-dolor">
+            diam. Orci varius natoque penatibus et magnis dis parturient montes,
+            nascetur ridiculus mus.
+          </p>
+        </div>
+      </div>
+      <div class="logo-nav-bar2" id="lOGONavBar">
+        <img
+          class="logo-tts-project-removebg-prev-icon2"
+          alt=""
+          src="./public/logo-tts-projectremovebgpreview-1@2x.png"
+        />
+        <div class="speechipy1">Speechipy</div>
+      </div>
+    </div>
+
+    <script>
+      var pauseButtonIcon = document.getElementById("pauseButtonIcon");
+      if (pauseButtonIcon) {
+        pauseButtonIcon.addEventListener("click", function (e) {
+          window.location.href = "./output-speech.html";
+        });
+      }
+      
+      var lOGONavBar = document.getElementById("lOGONavBar");
+      if (lOGONavBar) {
+        lOGONavBar.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      </script>
+  </body>
+</html>
